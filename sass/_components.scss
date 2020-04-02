@@ -1,0 +1,153 @@
+.header{
+    // background-color: #95a5a6;
+    padding: 1rem 2rem;
+
+
+    &__logo{
+      color: var(--color-grey-light-3);
+      text-transform: uppercase;
+      letter-spacing: .15rem;
+      font-size: 2rem;
+
+      span{
+          color: var(--color-blue-light);
+          
+      }
+    }
+
+    .search{
+        display: flex;
+        flex: 0 0 40%;
+        justify-content: center;
+        align-items: center;
+        
+
+        &__input{
+            width: 70%;
+            margin-right: -4rem;
+            background-color: var(--color-primary-white);
+            font-family: inherit;            
+            font-size: 1.6rem;
+            transition: all .4s;
+            border-radius: 100px;
+            padding: 1.5rem 4rem;
+            border: 1px solid var(--color-blue-light);
+
+            
+           
+
+
+            &:focus{
+                width: 100%;
+                outline: none;
+            }
+            
+        }
+
+
+        &__button{
+            height: 4rem;
+            width: 4rem;
+            // border-radius: 100px;
+            background: none;
+            border: none;
+            margin-right: 2rem;
+            fill: var(--color-blue-light);
+            transition: all .4s;
+
+            &:focus{
+                outline: none;
+            }
+
+
+            &:active{
+                transform: translateY(4px);               
+            }
+
+        }
+
+        &__icon{
+            height: 2rem;
+            width: 2rem;
+        }
+    }
+
+
+    .user-nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & > *{
+            padding: 0 2rem;
+            cursor: pointer;
+            
+        }
+
+        &__icon-box{
+            display: flex;
+            align-items: center;
+            position: relative;
+
+
+            .messages{
+                height: 2.25rem;
+                width: 2.25rem;   
+                fill: var(--color-blue-light);          
+    
+            }
+
+            .notification{
+                height: 2.25rem;
+                width: 2.25rem;  
+                fill: var(--color-blue-light); 
+            }
+
+            span{
+                color: var(--color-primary-white);
+                font-size: 1.2rem;
+                height: 1.75rem;
+                width: 1.75rem;
+                font-weight: 300;
+                position: absolute;
+                top: -.4rem;
+                left: 50%;
+                // background: var(--color-blue-dark);
+                background: var(--color-grey-light-3);
+                border-radius: 50%;
+                padding: .2rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+        &__user{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+           
+
+
+            .user-nav__user-photo{
+                height: 3.75rem;               
+                border-radius: 50%;
+                margin-right: 1rem;
+
+            }
+
+            .user-nav__user-name{
+                color: var( --color-grey-dark-3);
+                font-weight: 400;
+                font-size: 1.6rem;
+
+
+            }
+
+        }
+
+    }
+}
+
+
+

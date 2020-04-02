@@ -1,0 +1,30 @@
+.container{
+    max-width: 120rem;
+    margin: 4rem auto;
+    background-color: var(--color-primary-white);
+    box-shadow: var(--box-shadow-primary);
+
+    min-height: 50rem;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+
+}
+
+.content{
+    display: flex;
+}
+
+.navigation{
+  background-color: red;
+  flex: 0 0 15%; //shrink, grow, flex-basis/width
+}
+
+.main-content{
+   background-color: #000;
+   flex: 1;
+}
