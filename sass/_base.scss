@@ -12,8 +12,10 @@
 
 :root{
     --color-primary-white:#fff;
+    --color-primary-white-2:rgb(245, 244, 244);
     --color-primary:#dfe4ea;
     --color-primary-1:#d1d8e0;
+    --color-blue-light-1:#29dfff;
     --color-blue-light:#18dcff;
     --color-blue-dark:#00d0f5;
 
@@ -22,10 +24,12 @@
     --color-grey-dark-3:#333;
     --color-grey-light-3:rgb(160, 160, 160);
 
-    --color-black-light:#111619;
+    --color-black-light:#2f3640;
     --color-black-dark:#0a0d0f;
 
     --box-shadow-primary: 0 2rem 6rem rgba(0, 0, 0, .3);
+
+    --block-border:rgba(17, 17, 17, 0.233);
 
 }
 
@@ -35,12 +39,12 @@ html{
 }
 
 body{    
-    font-weight: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     line-height: 1.6;
     color: var(--color-black-light);
     
-    background-image:linear-gradient(to right bottom, var(--color-grey-dark), var(--color-blue-dark-2));
+    background-image:linear-gradient(to right bottom, var( --color-blue-ligh), var( --color-blue-ligh));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

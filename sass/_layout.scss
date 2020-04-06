@@ -17,14 +17,16 @@
 
 .content{
     display: flex;
+    // height: 80rem;
 }
 
 .navigation{
-  background-color: red;
+  background-color: var(--color-black-light);
   flex: 0 0 15%; //shrink, grow, flex-basis/width
 }
 
 .main-content{
-   background-color: #000;
+  background-color: var(--color-primary);
+
    flex: 1;
 }
