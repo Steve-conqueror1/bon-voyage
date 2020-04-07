@@ -33,9 +33,17 @@
 
 }
 
+$largest:60.25em;
+$large:48.35em;
+$medium:38.875em;
+
 html{  
     font-size:62.5%; 
     box-sizing: border-box;
+
+    @media only screen and(max-width:$largest) {
+        font-size:50%; 
+    }
 }
 
 body{    
@@ -44,12 +52,13 @@ body{
     line-height: 1.6;
     color: var(--color-black-light);
     
-    background-image:linear-gradient(to right bottom, var( --color-blue-ligh), var( --color-blue-ligh));
+    background-image:linear-gradient(to right bottom, var( --color-blue-light), var( --color-blue-light));
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 
     
 
-    height: 100vh;
+
+  
 }

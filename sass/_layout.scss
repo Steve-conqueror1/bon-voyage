@@ -3,8 +3,11 @@
     margin: 4rem auto;
     background-color: var(--color-primary-white);
     box-shadow: var(--box-shadow-primary);
-
     min-height: 50rem;
+
+    @media only screen and(max-width:$largest) {
+      margin: 0;
+  }
 }
 
 .header{
@@ -18,15 +21,22 @@
 .content{
     display: flex;
     // height: 80rem;
+
+    @media only screen and(max-width:$medium) {           
+      flex-direction: column;     
+      }
 }
 
 .navigation{
   background-color: var(--color-black-light);
   flex: 0 0 15%; //shrink, grow, flex-basis/width
+
+
 }
 
 .main-content{
   background-color: var(--color-primary);
-
    flex: 1;
+
+ 
 }
